@@ -1,6 +1,6 @@
 import React from "react";
-import { NavLink, useActionData } from "react-router-dom";
-import { UseSelector, useSelector } from "react-redux";
+import { NavLink } from "react-router-dom";
+import {  useSelector } from "react-redux";
 const Navbar = () => {
   const state = useSelector((state) => state.HandleCart);
   return (
